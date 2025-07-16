@@ -8,7 +8,8 @@ export const styleHeader = StyleSheet.create({
     alignItems: "center",
   },
   titulo: {
-    fontSize: 20,
+    paddingTop: 40,
+    fontSize: 24,
     fontWeight: "bold",
     color: "#333",
   },

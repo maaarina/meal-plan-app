@@ -2,17 +2,12 @@ import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
     container: {
+        margin: "auto",
+        width: "100%",
+        padding: 25,
         alignSelf: "flex-start",
         alignItems: "center",
         justifyContent: "center",
-    },
-    title: {
-        fontSize: 20,
-        fontWeight: "bold",
-        fontFamily: "TimesNewRoman",
-        justifyContent: "center",
-        alignItems: "center",
-        padding: 15, 
     },
     dayTitle: {
         backgroundColor: "#F9CACA",
@@ -20,7 +15,8 @@ export const styles = StyleSheet.create({
         padding: 6,
         alignSelf: "flex-start",
         borderRadius: 5,
-        marginBottom: 10,
+        marginBottom: 7,
         fontWeight: "bold",
+        fontSize: 16,
   },
 })

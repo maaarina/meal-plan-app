@@ -22,6 +22,7 @@ export const mealStyle = StyleSheet.create({
     },
     text:{
         fontWeight: "bold",
+        fontSize: 20,
     }
 
 
