@@ -24,7 +24,4 @@ export const mealStyle = StyleSheet.create({
         fontWeight: "bold",
         fontSize: 20,
     }
-
-
 });
-

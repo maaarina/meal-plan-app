@@ -4,14 +4,14 @@ import { styles } from "./style";
 import Header from "../components/header/";
 import MealCards from "../components/mealCards/"
 
-export default function Index(){
+export default function Index(){ 
 
     return(
         <View>
-            <Header titulo="Meal Plan" />
+            <Header titulo="Meal Plan" /> 
 
-            <ScrollView>
-                <View style={styles.container}>
+            <ScrollView> 
+                <View style={styles.container}> 
                     <Text style={styles.dayTitle}> Segunda </Text>
                     <MealCards mealType="Café da Manhã"/>
                     <MealCards mealType="Almoço"/>
